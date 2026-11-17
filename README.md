@@ -2,7 +2,7 @@
 
 A secured college network built in Cisco Packet Tracer for the CCN (Computer Communication Networks) Level 2 project. Student, Admin and Server devices are separated into VLANs, connected through one router, given addresses by DHCP, and protected by an extended ACL. A DNS server and a web server let students open the college portal by name.
 
-![Network topology](docs/screenshots/01_topology.png)
+![Network topology](screenshots/01_topology.png)
 
 ## Objectives
 
@@ -67,14 +67,15 @@ The extended ACL `STUDENT_SECURITY` is applied inbound on Gi0/0 (student network
 | student_pc1 | Web Browser: `http://www.pesuniversity.edu` | portal page loads |
 | student_pc1 | Web Browser: `http://192.168.20.10` | blocked by the ACL |
 
-Screenshots of every test are in [`docs/screenshots`](docs/screenshots).
+Screenshots of every test are in [`screenshots`](screenshots).
 
 ## Repository contents
 
 ```
 College_Lab_Network.pkt   Packet Tracer project file
 configs/                  router and switch configs, end-device settings
-docs/                     full project report (Word) and screenshots
+docs/                     full project report (Word)
+screenshots/              labelled test and configuration screenshots
 LICENSE
 ```
 
